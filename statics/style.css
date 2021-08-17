@@ -1,0 +1,178 @@
+/* Commons */
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* Elements */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ngnl-light {
+  text-shadow: 0 0 15px #d87093;
+}
+
+.btn {
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+}
+.btn-primary {
+  background-color: #694298;
+}
+.btn-secondary {
+  background-color: #cc568a;
+}
+
+#B-ngnl {
+  color: white;
+  text-shadow: 0 0 15px #d87093;
+  font-size: 20px;
+  font-family: '楷体';
+  text-decoration: none;
+}
+/* ↑↑↑改变链接观影链接颜色 阴影 大小 字体↓↓↓ */
+#B-ngnlz {
+  color: white;
+  text-shadow: 0 0 15px #d87093;
+  font-size: 20px;
+  font-family: '楷体';
+  text-decoration: none;
+}
+
+/* 改变"Bilibili"的颜色 阴影 大小 字体 */
+#goto-bilibili {
+  line-height: 2;
+  font-size: 1rem;
+}
+#jump-to-bilibili {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 1rem;
+}
+.bilibili {
+  color: #00a1d6;
+  text-shadow: 0 0 2px #222;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2;
+}
+
+/* Header title */
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-size: 5rem;
+}
+h1 img {
+  height: 1em;
+  width: auto;
+  pointer-events: none;
+}
+#ng {
+  text-shadow: 0 0 15px #cc568a;
+}
+/* 改变No Life的字体 颜色 阴影 */
+#nl {
+  text-shadow: 0 0 20px #694298;
+}
+
+/* 改变h2标题的颜色 阴影 */
+h2 {
+  margin-top: 0;
+  text-shadow: 0 0 10px #cc568a;
+  font-size: 0.8rem;
+}
+
+#bk {
+  box-shadow: 0 -2px 0 #fff inset;
+}
+
+/* 这是默认静态背景图片 */
+/* body {
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+} */
+
+/* 动态视频背景 */
+#b-bz {
+  text-decoration: none;
+  color: #ebebeb;
+  text-shadow: 0 0 4px white;
+}
+
+/* 修改up主主页传送门的颜色 阴影 大小 字体 */
+#b-up {
+  text-decoration: none;
+  color: gold;
+  text-shadow: 0 0 4px white;
+  font-family: '楷体';
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(110, 43, 66, 0.9);
+  padding: 1rem; */
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(110, 43, 66, 0.9);
+}
+
+#copyright {
+  font-size: 0.75rem;
+}
+
+#bg-video {
+  position: fixed;
+  width: auto;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@media screen and (max-height: 1080px) {
+  #bg-video {
+    min-width: 100vw;
+  }
+}
+@media screen and (min-height: 1080px) {
+  #bg-video {
+    max-height: 100vh;
+  }
+}
